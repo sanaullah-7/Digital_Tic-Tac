@@ -16,15 +16,15 @@ h1 {
 }
 
 .container {
-    height: 78vh;
+    height: 77vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .game {
-    height: 67vmin;
-    width: 67vmin;
+    height: 66vmin;
+    width: 66vmin;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -111,4 +111,13 @@ h1 {
 
 .x:hover {
     color: black;
+}
+
+@media (max-width: 460px) {
+    h1 {
+        color: gold;
+        letter-spacing: 0.2rem;
+        margin-top: 2rem;
+    }
+
 }
