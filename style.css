@@ -114,10 +114,24 @@ h1 {
 }
 
 @media (max-width: 460px) {
+    .container {
+        height: 67vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     h1 {
         color: gold;
         letter-spacing: 0.2rem;
         margin-top: 2rem;
+    }
+
+    .msg-container {
+        height: 65vmin;
+        margin-top: 12rem;
+        display: none;
+        flex-direction: column;
     }
 
 }
