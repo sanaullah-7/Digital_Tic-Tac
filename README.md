@@ -15,8 +15,7 @@ Play solo or with a friend — with dark mode support and a mobile-friendly desi
 
 ![Preview](![Screenshot (24)](https://github.com/user-attachments/assets/d5170656-2642-44b4-939c-ae31984f4597)
 )
-> *(Add a screenshot named `![Screenshot (24)](https://github.com/user-attachments/assets/8f40dfd5-005a-4e28-a176-a9dad066eb2d)
-` in your repo root to display here)*
+Digital Tic Tac Pro Version Toe
 
 ---
 
@@ -42,4 +41,10 @@ Play solo or with a friend — with dark mode support and a mobile-friendly desi
 ---
 
 ## 🗂 Project Structure
+Digital_Tic-Tac/
+├── index.html # Game UI
+├── style.css # Game styles and dark mode
+├── script.js # Game logic
+├── preview.png # Game screenshot (optional)
+└── README.md # Project documentation
 
