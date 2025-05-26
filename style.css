@@ -128,7 +128,7 @@ h1 {
     }
 
     .msg-container {
-        height: 70vmin;
+        height: 75vmin;
         margin-top: 12rem;
         display: none;
         flex-direction: column;
