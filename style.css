@@ -1,0 +1,114 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #25255c;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: gold;
+    letter-spacing: 0.2rem;
+}
+
+.container {
+    height: 78vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 67vmin;
+    width: 67vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 5px 6px 15px gold, inset 5px 5px 10px gold;
+
+}
+
+.box {
+    cursor: pointer;
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    font-size: 8vmin;
+    font-weight: 900;
+    transition: 0.3s ease-out;
+    background-color: #404058;
+    /* color: gold; */
+}
+
+.box:hover {
+    background-color: gold;
+    color: black;
+}
+
+.reset-btn {
+
+    padding: 0.8rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: gold;
+    color: black;
+    font-size: larger;
+    font-weight: bolder;
+    cursor: pointer;
+    box-shadow: 2px 2px 15px gold;
+    margin-bottom: 1rem;
+}
+
+.reset-btn:hover {
+    background-color: rgba(255, 217, 0, 0.87);
+}
+
+#msg {
+    font-size: 8vmin;
+    color: gold;
+
+}
+
+#new-btn {
+    padding: 0.6rem;
+    width: 15ch;
+    border-radius: 1rem;
+    border: none;
+    background-color: gold;
+    color: black;
+    font-size: larger;
+    font-weight: bolder;
+    cursor: pointer;
+    box-shadow: 2px 2px 15px gold;
+    margin-top: 4rem;
+}
+
+.msg-container {
+    height: 80vmin;
+    margin-top: 12rem;
+    display: none;
+    flex-direction: column;
+}
+
+.o {
+    color: black;
+    font-weight: 900;
+}
+
+.x {
+    color: gold;
+    font-weight: 900;
+}
+
+.x:hover {
+    color: black;
+}
