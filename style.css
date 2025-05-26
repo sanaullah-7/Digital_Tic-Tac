@@ -102,13 +102,14 @@ h1 {
 
 span {
     color: gold;
-    padding: 20px 35PX 20PX 35PX;
+    padding: 20px 30PX 20PX 30PX;
     border-radius: 1rem;
     font-weight: 900;
 }
 
 span:hover {
     color: black;
+    background-color: green;
 
 }
 
