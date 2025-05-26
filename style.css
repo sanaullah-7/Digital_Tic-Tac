@@ -127,11 +127,4 @@ h1 {
         margin-top: 2rem;
     }
 
-    .msg-container {
-        height: 75vmin;
-        margin-top: 12rem;
-        display: none;
-        flex-direction: column;
-    }
-
 }
