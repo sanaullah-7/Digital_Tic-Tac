@@ -97,21 +97,25 @@ h1 {
     margin-top: 12rem;
     display: none;
     flex-direction: column;
+    color: gold;
+}
+
+span {
+    color: gold;
+    padding: 20px 35PX 20PX 35PX;
+    border-radius: 1rem;
+    font-weight: 900;
+}
+
+span:hover {
+    color: black;
+
 }
 
 .o {
     color: black;
-    font-weight: 900;
 }
 
-.x {
-    color: gold;
-    font-weight: 900;
-}
-
-.x:hover {
-    color: black;
-}
 
 @media (max-width: 460px) {
     .container {
@@ -126,5 +130,7 @@ h1 {
         letter-spacing: 0.2rem;
         margin-top: 2rem;
     }
+
+
 
 }

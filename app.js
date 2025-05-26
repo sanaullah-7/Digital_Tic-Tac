@@ -29,10 +29,9 @@ resetBtn.addEventListener("click", resetGame)
 boxes.forEach(box => {
     box.addEventListener("click", () => {
         if (turnO) {
-            box.innerHTML = "<span class='o'>O</span>";
-            box.style.color = "black"
+            box.innerHTML = "<span class='o'>O</span>"
         } else {
-            box.innerHTML = "<span class='x'>X</span>";
+            box.innerHTML = "<span class='x'>X</span>"
         }
         //If it was O’s turn, it becomes X’s turn.
         //If it was X’s turn, it becomes O’s turn
@@ -44,8 +43,6 @@ boxes.forEach(box => {
     })
 
 });
-
-
 
 function checkWinner() {
     for (let pattern of winningConditions) {
@@ -78,8 +75,8 @@ toggleDarkBtn.addEventListener("click", () => {
 
     document.body.style.backgroundColor = //Yeh batata hai ke abhi page ka background color kya hai (jo JavaScript ne set kiya ho).
         document.body.style.backgroundColor === 'black' ? 'rgb(37, 37, 92)' : 'black';//first click par yeah black hujyga
-    document.body.style.backgroundColor === 'black' ? on.style.display = " block" : on.style.display = "none";//first click par yeah black hujyga
-    document.body.style.backgroundColor === 'black' ? off.style.display = "none" : off.style.display = "block";//first click par yeah black hujyga
     //Agar background color black hai, to usay darkblue kar do 2nd button click par... Agar background color black nahi hai koi aur ha, to usay black kar do.
 
+    document.body.style.backgroundColor === 'black' ? on.style.display = " block" : on.style.display = "none";
+    document.body.style.backgroundColor === 'black' ? off.style.display = "none" : off.style.display = "block";
 });
