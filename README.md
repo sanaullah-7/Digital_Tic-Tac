@@ -1,37 +1,45 @@
-# 🎮 Tic Tac Toe Pro
+# 🎮 Digital Tic Tac Toe
 
-A clean, professional Tic Tac Toe game built using **HTML**, **CSS**, and **JavaScript**.  
-Play locally, toggle between light/dark mode, and enjoy the simplicity of this classic game!
+A clean, modern, and fully responsive **Tic Tac Toe game** built with HTML, CSS, and JavaScript.  
+Play solo or with a friend — with dark mode support and a mobile-friendly design.
+
+---
+
+## 🔗 Live Demo
+
+👉 [Play Now on Vercel](https://digital-tic-tac.vercel.app)
+
+---
+
+## 📸 Preview
+
+![Preview](![Screenshot (24)](https://github.com/user-attachments/assets/d5170656-2642-44b4-939c-ae31984f4597)
+)
+> *(Add a screenshot named `![Screenshot (24)](https://github.com/user-attachments/assets/8f40dfd5-005a-4e28-a176-a9dad066eb2d)
+` in your repo root to display here)*
 
 ---
 
 ## 🚀 Features
 
-- ✨ Simple & elegant UI
-- 🎯 2-player turn-based logic
-- 🌗 Dark Mode toggle
-- 🔄 Game reset functionality
-- 💻 100% responsive and mobile-friendly
-- 🧠 Beginner-friendly codebase
+- ✅ Two-player local mode
+- 🌗 Toggle dark/light mode
+- 🎯 Win detection & draw logic
+- 🔁 Game reset with animations
+- ⚡ Mobile & desktop responsive layout
+- 💡 Beginner-friendly, readable JavaScript code
 
 ---
 
-## 🖼️ Preview
+## 🛠 Tech Stack
 
-![Tic Tac Toe Preview](preview.png) <!-- Optional: Add your own screenshot -->
-
----
-
-## 🔧 Technologies
-
-- HTML5
-- CSS3 (Grid, Flexbox)
-- JavaScript (Vanilla)
+| Tech         | Description               |
+|--------------|---------------------------|
+| HTML5        | Game structure            |
+| CSS3         | Responsive styling, dark mode |
+| JavaScript   | Game logic and interactivity |
 
 ---
 
-## 📦 Installation
+## 🗂 Project Structure
 
-```bash
-git clone https://github.com/YOUR-USERNAME/tic-tac-toe-pro.git
-cd tic-tac-toe-pro
