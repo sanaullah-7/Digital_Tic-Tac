@@ -108,8 +108,8 @@ span {
 }
 
 span:hover {
+    background-color: gold;
     color: black;
-    background-color: green;
 
 }
 
